@@ -1,7 +1,71 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 #books {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#firstbook, #secondbook, #thirdbook, #fourthbook, #fifthbook {
+  width: 300px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(102, 93, 155, 0.377);
+}
+
+h4 {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(12, 180, 231);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(167, 1, 167);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(226, 28, 226);
+}
+
+h4 {
+  text-align: center;
+  color: blue;
+}
+
+img {
+  width: 150px;
+}
+
+footer {
+  text-align: end;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#firstbook, #secondbook, #thirdbook, #fourthbook, #fifthbook {
+  width: 300px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(176, 35, 204, 0.377);
 }
 
 /*# sourceMappingURL=output.css.map */
